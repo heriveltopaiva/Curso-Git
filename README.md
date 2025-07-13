@@ -27,6 +27,22 @@ esse comando desativa o pager automatico globalmente em todos os arquivo.
 # COMANDO DE EXECULÇÃO NO TERMINAL: (git show para ver o que foi feito de mudança no codigo)
 
 
+# COMANDO DE EXECULÇÃO NO TERMINAL: (it checkout README.md) O comando g tem uma função específica no Git, e é importante entender quando e como usá-lo corretamente. Aqui está a explicação detalhada:
+O que git checkout README.md faz?
+Esse comando tem dous usos principais, dependendo do contexto:
+
+Descartar alterações não commitadas no arquivo README.md:
+
+Se você modificou o arquivo mas não fez git add, ele volta ao estado do último commit.
+
+⚠️ Atenção: Todas as alterações não salvas serão perdidas!
+
+Quando usar?
+Cenário 1: Você editou o README.md e quer desfazer as alterações (antes de fazer git add).
+
+Cenário 2: Você precisa restaurar o README.md para uma versão anterior (sem afetar outros arquivos).
+
+
 
 
 
