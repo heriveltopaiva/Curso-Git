@@ -20,6 +20,12 @@ esse comando desativa o pager automatico globalmente em todos os arquivo.
 
 # COMANDO DE EXECULÇÃO NO TERMINAL: (git diff --name-only) para saber o nome do arquivo que foi modificado
 
+# COMANDO DE EXECULÇÃO NO TERMINAL: (git commit -am "Edit Readme") aqui eu vou comita um arquivo existente, se fosse a primeira vez seria git commit.
+
+# COMANDO DE EXECULÇÃO NO TERMINAL: (git log) para ver quem fez a mudanças
+
+# COMANDO DE EXECULÇÃO NO TERMINAL: (git show para ver o que foi feito de mudança no codigo)
+
 
 
 
