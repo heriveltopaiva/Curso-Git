@@ -1,11 +1,13 @@
 # Meu Projeto Git
  segundo teste 
- # COMANDO DE EXECULÇÃO NO TERMINAL:(git diff) vai mostra a modificação, colocar esse comando no terminal do vs code, obs: sempre uasr o git diff antes de fazer o commmit, e muito importante para ver se realmente o codigo esta correto.
+ # COMANDO DE EXECULÇÃO NO TERMINAL:(git diff) 
+ vai mostra a modificação, colocar esse comando no terminal do vs code, obs: sempre uasr o git diff antes de fazer o commmit, e muito importante para ver se realmente o codigo esta correto.
 
- # ok! agora entendi, sempre vou digita aqui, e não no terminal! porque estou usado o vscode e isso fica diferente como vo digitar os codigo eu digito aqui na pasta do codigo no vscode e execulto eles no terminal, tanto do powershell quanto do vs code, mais nesse momento estou usando o vc code.
+  ok! agora entendi, sempre vou digita aqui, e não no terminal! porque estou usado o vscode e isso fica diferente como vo digitar os codigo eu digito aqui na pasta do codigo no vscode e execulto eles no terminal, tanto do powershell quanto do vs code, mais nesse momento estou usando o vc code.
 
 
- # COMANDO DE EXECULÇÃO NO TERMINAL:(git --no-pager diff)  Mostra tudo de uma vez, sem paginar, esse comando aqui não deixa a pagina do terminal fazer:
+ # COMANDO DE EXECULÇÃO NO TERMINAL:(git --no-pager diff)  
+ Mostra tudo de uma vez, sem paginar, esse comando aqui não deixa a pagina do terminal fazer:
 
   Por que isso acontece?
  Paginação automática:
@@ -14,20 +16,24 @@ O Git usa o programa less (ou more no Windows) para exibir saídas longas.
 
 Quando o conteúdo não cabe na tela, ele pára e mostra (END) ou : no final, esperando seu comando para continuar.
 
-# COMANDO DE EXECULÇÃO NO TERMINAL:(git config --global core.pager "")  # Desativa o pager para todos os comandos
+# COMANDO DE EXECULÇÃO NO TERMINAL:(git config --global core.pager "")  
+ Desativa o pager para todos os comandos
 
 esse comando desativa o pager automatico globalmente em todos os arquivo.
 
-# COMANDO DE EXECULÇÃO NO TERMINAL: (git diff --name-only) para saber o nome do arquivo que foi modificado
+# COMANDO DE EXECULÇÃO NO TERMINAL: (git diff --name-only) 
+para saber o nome do arquivo que foi modificado
 
-# COMANDO DE EXECULÇÃO NO TERMINAL: (git commit -am "Edit Readme") aqui eu vou comita um arquivo existente, se fosse a primeira vez seria git commit.
+# COMANDO DE EXECULÇÃO NO TERMINAL: (git commit -am "Edit Readme") 
+aqui eu vou comita um arquivo existente, se fosse a primeira vez seria git commit.
 
 # COMANDO DE EXECULÇÃO NO TERMINAL: (git log) para ver quem fez a mudanças
 
 # COMANDO DE EXECULÇÃO NO TERMINAL: (git show para ver o que foi feito de mudança no codigo)
 
 
-# COMANDO DE EXECULÇÃO NO TERMINAL: (git checkout README.md) O comando g tem uma função específica no Git, e é importante entender quando e como usá-lo corretamente. Aqui está a explicação detalhada:
+# COMANDO DE EXECULÇÃO NO TERMINAL: (git checkout README.md)
+ O comando g tem uma função específica no Git, e é importante entender quando e como usá-lo corretamente. Aqui está a explicação detalhada:
 O que git checkout README.md faz?
 Esse comando tem dous usos principais, dependendo do contexto:
 
@@ -54,6 +60,29 @@ git reset HEAD	Tira arquivos do staging (mantém alterações)
 git checkout -- arquivo	Descarta alterações não adicionadas (perde mudanças!)
 git reset --hard HEAD	Perde tudo: alterações em staging e diretório de trabalho
 
+
+# COMANDO DE EXECULÇÃO NO TERMINAL: (git reset --soft) 
+O comando  é um dos tipos mais seguros de reset no Git, pois não altera seu código-fonte nem sua área de trabalho. Ele trabalha apenas no nível dos commits e do staging area. Aqui está a explicação detalhada:
+
+O que git reset --soft faz?
+Desfaz commits, mas mantém:
+
+Todas as alterações dos commits desfeitos na staging area (como se você tivesse feito git add).
+
+Os arquivos modificados intactos no seu diretório.
+
+Não afeta:
+
+O código dos arquivos (nada é perdido).
+
+Arquivos não commitados.
+
+Quando usar?
+Corrigir mensagens de commit: Se você errou na mensagem do último commit.
+
+Reorganizar commits: Juntar vários commits em um só (antes de enviar para o repositório remoto).
+
+Adicionar arquivos esquecidos a um commit anterior.
 
 
 
