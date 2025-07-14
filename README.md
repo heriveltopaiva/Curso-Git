@@ -85,6 +85,24 @@ Reorganizar commits: Juntar vários commits em um só (antes de enviar para o re
 Adicionar arquivos esquecidos a um commit anterior.
 
 
+# Para editar algumm arquivo no ex: esta o arquivo README.md
+code README.md
+
+# configuracao-chave-keys-repositorio-github" que aparece como untracked de forma prática:
+ git add configuracao-chave-keys-repositorio-github
+
+
+# Subir ou atualizar os arquivos no github
+(use "git push" to publish your local commits)
+git push
+
+
+
+
+
+
+
+
 
 
 
