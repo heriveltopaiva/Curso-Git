@@ -97,11 +97,51 @@ code README.md
 git push
 
 
+# Visual vscode
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 587 bytes | 293.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To github.com:heriveltopaiva/Curso-Git.git
+   a3d22c0..9515137  main -> main
+branch 'main' set up to track 'origin/main'.
+PS F:\Curso Git\git-course> 
 
+# Entrar nos commits
+https://github.com/heriveltopaiva/Curso-Git/commits
 
+# Clonar repositorio: serve para não perde as informções
+git clone https://github.com/heriveltopaiva/Curso-Git.git curso-git.git-clone
 
+# Para entra na pasta
+PS C:\Users\Usuario> cd curso-git.git-clone
 
+# Para sair do repositorio
+cd
 
+# Fazer um fork 
+depois olha os documento para saber com se faz.
+
+# para cria um novo branch
+git checkout -b testing
+sendo testing o nome dado para branch
+
+# Para ver os brsnch que foram criados
+git branch
+
+# Para apagar um branch
+git branch -D nome do branch
+lembrando testing e nome do branch
+
+# Para criar pasta
+mkdir rebase-marge (nome da pasta)
+# para entrar na pasta
+cd mkdir rebese-marge
+# para inicializar a pasta
+git unit
 
 
 
